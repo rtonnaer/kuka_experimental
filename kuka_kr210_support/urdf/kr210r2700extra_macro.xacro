@@ -62,13 +62,13 @@
     </link>
     <link name="${prefix}link_4">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0" rpy="${180 * DEG2RAD} 0 0"/>
         <geometry>
           <mesh filename="package://kuka_kr210_support/meshes/kr210r2700extra/visual/link_4.dae" />
         </geometry>
       </visual>
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0 0 0" rpy="${180 * DEG2RAD} 0 0"/>
         <geometry>
           <mesh filename="package://kuka_kr210_support/meshes/kr210r2700extra/collision/link_4.stl" />
         </geometry>
